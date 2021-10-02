@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.input-icon {
+  background-color: #ffff;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.input-icon:hover {
+  background-color: #96969a;
+}
+.register-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.register-btn {
+  margin-top: 30px;
+  cursor: pointer;
+  width: 30%;
+}
+.register-btn:hover {
+  cursor: pointer;
+  background-color: #18181f;
+}
+.signup-link-container {
+  text-align: center;
+}
+.signup-link-container .Sign-up-link {
+  color: #42861a;
+  text-decoration-color: #557d6b;
+}
+.signup-link-container .Sign-up-link:hover {
+  color: #9ca919;
+  text-decoration-color: #557d6b;
+}
+.password-icon {
+  position: absolute;
+  right: 60px;
+  cursor: pointer;
+}
